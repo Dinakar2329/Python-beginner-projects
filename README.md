@@ -7,3 +7,4 @@ You can find here,
 1) GuessTheNumber game
 2) RockpapperScissor
 3) PasswordGenerator
+4) LanguageTranslator
