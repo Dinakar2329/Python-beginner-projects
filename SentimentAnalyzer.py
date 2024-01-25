@@ -31,11 +31,13 @@ root = Tk()
 Label1 = Label(root, text="Enter Text To Analyze", font=10)
 text_box = Entry(root, font=10, width=25)
 button_1 = Button(root, text="Analyze Sentiment", command=lambda: analyze_sentiment_and_update_label(text_box.get(), Label2))
+button_2 = Button(root, text="Clear Text", command=lambda: text_box.delete(0, END))
 Label2 = Label(root, text="Result:")
 
 Label1.pack(pady=25)
 text_box.pack()
 button_1.pack(pady=15)
+button_2.pack(pady=15)
 Label2.pack()
 
 # Center the window on the screen
