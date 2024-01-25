@@ -9,3 +9,4 @@ You can find here,
 3) PasswordGenerator
 4) LanguageTranslator
 5) Background Remover
+6) SentimentAnalyzer
